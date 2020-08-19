@@ -1,0 +1,50 @@
+body {
+    background-color: #150e1b;
+}
+
+h1 {
+    color: #e23e57;
+}
+
+h2 {
+    color: #e23e57;
+}
+
+h3 {
+    color: #e23e57;
+}
+
+h4 {
+    color: #e23e57;
+}
+
+p {
+    color: #a06a7c;
+}
+
+hr {
+    border-color: rgb(144, 130, 103);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 50%;
+}
+
+label {
+    color: #cca8e9;
+}
+
+thead {
+    color: #cca8e9;
+}
+
+tbody {
+    color: #a06a7c;
+}
+
+table {
+    border-color: #55062b;
+    border-style: none;
+    border-width: 5px;
+    width: 100%;
+}
