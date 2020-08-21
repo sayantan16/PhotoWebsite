@@ -1,19 +1,12 @@
+/******************************************* TAG SELECTORS **********************************************************/
+
 body {
     background-color: #150e1b;
 }
 
-h1 {
-    color: #e23e57;
-}
-
-h2 {
-    color: #e23e57;
-}
-
-h3 {
-    color: #e23e57;
-}
-
+h1,
+h2,
+h3,
 h4 {
     color: #e23e57;
 }
@@ -47,4 +40,27 @@ table {
     border-style: none;
     border-width: 5px;
     width: 100%;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    margin-top: -0.8%;
+}
+
+/******************************************* CLASS SELECTORS **********************************************************/
+
+.top {
+    /* The image used */
+    background-image: url("/images/hillLandscape.jpg");
+    background-color: white;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

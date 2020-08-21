@@ -1,0 +1,35 @@
+.top {
+    background-color: rgb(31, 56, 124);
+    color: turquoise;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 10px;
+    border-color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+.middle {
+    background-color: rgb(31, 121, 124);
+    color: white;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 20px;
+    border-color: black;
+    padding: 20px;
+    margin-left: 260px;
+}
+
+.bottom {
+    background-color: rgb(125, 224, 219);
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 10px;
+    border-color: black;
+    padding: 20px;
+    margin-left: 540px;
+}
