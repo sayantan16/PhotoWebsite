@@ -90,6 +90,7 @@ h4 {
     font-weight: bold;
     font-size: 300%;
     border: 10px solid #200101;
+    border-radius: 25px;
     position: fixed;
     top: 50%;
     left: 50%;
