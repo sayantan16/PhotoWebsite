@@ -122,7 +122,7 @@ h4 {
     border-radius: 20%;
     margin: 2%;
     background-color: whitesmoke;
-    background-image: url("/images/equips.jpeg");
+    background-image: url("homeImgs/equips.jpeg");
 }
 
 .inlineBox1:hover {
@@ -144,7 +144,7 @@ h4 {
     border-radius: 20%;
     margin: 2%;
     background-color: whitesmoke;
-    background-image: url("/images/collage.jpg");
+    background-image: url("homeImgs/collage.jpg");
 }
 
 .inlineBox2:hover {
@@ -166,7 +166,7 @@ h4 {
     border-radius: 20%;
     margin: 2%;
     background-color: whitesmoke;
-    background-image: url("/images/contact1.jpeg");
+    background-image: url("homeImgs/contact1.jpeg");
 }
 
 .inlineBox3:hover {
