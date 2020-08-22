@@ -1,0 +1,94 @@
+body,
+html {
+    background-color: #150e1b;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    color: #e23e57;
+    font-size: 300%;
+    font-family: 'Montez', cursive;
+}
+
+h2 {
+    color: #fae3d9;
+}
+
+h3 {
+    color: #ffb6b9;
+}
+
+h4,
+ol {
+    color: #a89199;
+}
+
+.box {
+    height: fit-content;
+    display: block;
+    text-align-last: center;
+    display: flex;
+    align-items: center;
+    border: solid 10px;
+    border-color: #490022;
+    border-radius: 10%;
+    margin: 2%;
+}
+
+.box-text-small {
+    width: 20%;
+    padding: 0.5%;
+    margin: 0.5%;
+    text-align-last: center;
+}
+
+.box-text-large {
+    width: 35%;
+    padding: 0.5%;
+    margin: 0.5%;
+    text-align-last: left;
+}
+
+.box-image {
+    width: 20%;
+    padding: 0.5%;
+    margin: 0.5%;
+    text-align-last: center;
+}
+
+.bg-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image {
+    border-radius: 10%;
+}
+
+#image1 {
+    border-radius: 10%;
+    height: 110%;
+    width: 90%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2 {
+    height: 10%;
+    width: 100%;
+    border-radius: 50%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
