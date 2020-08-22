@@ -50,35 +50,35 @@ h4 {
 
 /* Images used */
 .img1 {
-    background-image: url("/images/hillLandscape.jpg");
+    background-image: url("homeImgs/hillLandscape.jpg");
 }
 
 .img2 {
-    background-image: url("/images/heritageLandscape.jpeg");
+    background-image: url("homeImgs/heritageLandscape.jpeg");
 }
 
 .img3 {
-    background-image: url("/images/sunrise.jpeg");
+    background-image: url("homeImgs/sunrise.jpeg");
 }
 
 .img4 {
-    background-image: url("/homeImages/landscape1.jpg");
+    background-image: url("homeImgs/landscape1.jpg");
 }
 
 .img5 {
-    background-image: url("/homeImages/landscape2.jpg");
+    background-image: url("homeImgs/landscape2.jpg");
 }
 
 .img6 {
-    background-image: url("/homeImages/landscape3.jpg");
+    background-image: url("homeImgs/landscape3.jpg");
 }
 
 .img7 {
-    background-image: url("/homeImages/landscape4.jpeg");
+    background-image: url("homeImgs/landscape4.jpeg");
 }
 
 .img8 {
-    background-image: url("/homeImages/landscape5.jpeg");
+    background-image: url("homeImgs/landscape5.jpeg");
 }
 
 .bg-text {
