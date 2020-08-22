@@ -22,7 +22,6 @@ h4 {
 
 
 .bg-image {
-    /* Full height */
     height: 80%;
     width: 100%;
 
@@ -122,7 +121,7 @@ h4 {
     border-radius: 20%;
     margin: 2%;
     background-color: whitesmoke;
-    background-image: url("homeImgs/equips.jpeg");
+    background-image: url("equips.jpeg");
 }
 
 .inlineBox1:hover {
@@ -144,7 +143,7 @@ h4 {
     border-radius: 20%;
     margin: 2%;
     background-color: whitesmoke;
-    background-image: url("homeImgs/collage.jpg");
+    background-image: url("collage.jpg");
 }
 
 .inlineBox2:hover {
@@ -166,7 +165,7 @@ h4 {
     border-radius: 20%;
     margin: 2%;
     background-color: whitesmoke;
-    background-image: url("homeImgs/contact1.jpeg");
+    background-image: url("contact1.jpeg");
 }
 
 .inlineBox3:hover {
