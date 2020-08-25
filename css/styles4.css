@@ -1,0 +1,104 @@
+body,
+html {
+    background-color: #150e1b;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    color: #e23e57;
+    font-size: 300%;
+    font-family: 'Montez', cursive;
+}
+
+h2 {
+    color: #000000;
+    font-size: 200%;
+    font-family: 'Montez', cursive;
+}
+
+h3 {
+    color: #ffb6b9;
+}
+
+h4,
+ol {
+    color: #a89199;
+}
+
+.mainBox1 {
+    height: 18rem;
+    width: 20rem;
+    margin: 0.5%;
+    display: inline-block;
+    /* background-color: rgba(173, 173, 173, 0.445); */
+    position: relative;
+}
+
+.box1 {
+    height: 13rem;
+    width: 20rem;
+    background-color: #ffffffd3;
+    position: absolute;
+    border-radius: 10%;
+    border: solid 5px;
+    border-color: #490022;
+    padding-top: -3rem;
+}
+
+.box2 {
+    height: 13rem;
+    width: 20rem;
+    background-color: #ffb6b9;
+    position: absolute;
+    border-radius: 10%;
+    border: solid 5px;
+    border-color: #490022;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2:hover {
+    height: 13rem;
+    width: 20rem;
+    position: absolute;
+    top: 5rem;
+    cursor: pointer;
+    background-size: contain;
+}
+
+/* Images used */
+.img1 {
+    background-image: url("portfolio/Landscape.jpeg");
+}
+
+.img2 {
+    background-image: url("portfolio/Street.jpeg");
+}
+
+.img3 {
+    background-image: url("portfolio/Wedding.jpg");
+}
+
+.img4 {
+    background-image: url("portfolio/Nature.jpg");
+}
+
+.img5 {
+    background-image: url("portfolio/Product.jpeg");
+}
+
+.img6 {
+    background-image: url("portfolio/Food.jpg");
+}
+
+.img7 {
+    background-image: url("portfolio/Macro.jpeg");
+}
+
+.img8 {
+    background-image: url("portfolio/Portrait.jpeg");
+}
