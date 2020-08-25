@@ -29,11 +29,11 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* 
 .bg-avatar {
     height: 20%;
     width: 10%;
-}
+} */
 
 .bg-image-100 {
     /* Full height */
@@ -52,11 +52,11 @@ h4 {
 }
 
 .img2 {
-    background-image: url("homeImgs/heritageLandscape.jpeg");
+    background-image: url("homeImgs/heritageLandscape.jpg");
 }
 
 .img3 {
-    background-image: url("homeImgs/sunrise.jpeg");
+    background-image: url("homeImgs/sunrise.jpg");
 }
 
 .img4 {
@@ -72,18 +72,16 @@ h4 {
 }
 
 .img7 {
-    background-image: url("homeImgs/landscape4.jpeg");
+    background-image: url("homeImgs/landscape4.jpg");
 }
 
 .img8 {
-    background-image: url("homeImgs/landscape5.jpeg");
+    background-image: url("homeImgs/landscape5.jpg");
 }
 
 .bg-text {
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.664);
-    /* Black w/opacity/see-through */
     color: #e23e57;
     font-size: 300%;
     border: 10px solid #200101;
