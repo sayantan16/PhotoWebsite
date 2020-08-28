@@ -92,3 +92,14 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.avatar {
+    height: 80%;
+    width: 40%;
+    border-radius: 40%;
+    transform: translate(70%, -5%);
+    background-image: url("homeImgs/MeinAR.jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
