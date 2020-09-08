@@ -1,0 +1,228 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: rgb(70, 70, 70);
+    font-family: 'Merienda', cursive;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*************************************************** BackGround *****************************************************************/
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+    background-image: url("homeImgs/landscape1.jpg");
+    min-height: 450px;
+}
+
+.bgimg-2 {
+    background-image: url("homeImgs/landscape2.jpg");
+    min-height: 450px;
+}
+
+.bgimg-3 {
+    background-image: url("homeImgs/landscape3.jpg");
+    min-height: 450px;
+}
+
+.bgimg-4 {
+    background-image: url("homeImgs/landscape4.jpg");
+    min-height: 100%;
+}
+
+.bgimg-5 {
+    background-image: url("homeImgs/landscape5.jpg");
+    min-height: 450px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: rgba(17, 17, 17, 0.76);
+    color: #fff;
+    padding: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 2rem;
+}
+
+.caption-box {
+    text-align: center;
+    color: #000;
+}
+
+.caption-box span.topic {
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 3rem;
+    text-align: center;
+    text-align: justify;
+}
+
+.know-box {
+    padding: 20%;
+    text-align: center;
+    color: #000;
+}
+
+.know-box span.more {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: 1rem;
+    border: solid whitesmoke;
+    border-radius: 1.5rem;
+    text-align: center;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.know-box span.more:hover {
+    background-color: rgb(0, 0, 0);
+    font-size: 1rem;
+    letter-spacing: 2rem;
+    border: solid whitesmoke;
+    border-radius: 1.5rem;
+}
+
+.topic-box {
+    color: #ddd;
+    background-color: #000;
+    text-align: center;
+    padding: 1.5rem;
+    text-align: justify;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+    position: absolute;
+    left: 50%;
+}
+
+.icon-scroll {
+    width: 3%;
+    height: 10%;
+    top: 80%;
+    margin-left: -4px;
+    margin-top: 5%;
+    border: solid whitesmoke;
+    border-radius: 25px;
+    transform: translate(-50%, -20%);
+}
+
+.icon-scroll:before {
+    content: ' ';
+    width: 8px;
+    height: 8px;
+    margin-right: -3px;
+    margin-left: -2px;
+    background: #fff;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+    transform: translate(-50%, -20%);
+    position: fixed;
+}
+
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(500%);
+    }
+
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+/*************************************************** BackGround *****************************************************************/
+
+
+
+.avatar {
+    height: 10%;
+    width: 5%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("homeImgs/MyAR.png");
+    position: fixed;
+    top: 1%;
+    left: 92%;
+    background-size: cover;
+    opacity: 1;
+}
+
+.social_icon {
+    width: 20rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.social_button {
+    color: wheat;
+    padding: 5%;
+}
+
+.social_button:hover {
+    color: #fff;
+    padding: 5%;
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    letter-spacing: 5px;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-align: center;
+}

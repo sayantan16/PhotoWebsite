@@ -1,0 +1,240 @@
+body,
+html {
+    background-color: #150e1b;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #e23e57;
+    font-size: 400%;
+    font-family: 'Montez', cursive;
+}
+
+h2 {
+    color: #000000;
+    font-size: 200%;
+    font-family: 'Montez', cursive;
+}
+
+h3,
+h4 {
+    color: #e23e57;
+}
+
+
+/***************************************************** Class Selector ***********************************************************/
+
+
+.bg-image {
+    height: 80%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.avatar {
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("homeImgs/MeinAR.jpg");
+    /* position: fixed;
+    top: 20%;
+    left: 2%;
+    transform: translate(0%, -50%);
+    background-size: cover;
+    opacity: 1;
+    transition: width 0.7s, height 0.7s, left 0.7s, top 0.7s, transform 0.7s; */
+}
+
+/* 
+.avatar:hover {
+    height: 30%;
+    width: 15%;
+    border-radius: 50%;
+    top: 50%;
+    left: 0%;
+    cursor: pointer;
+    transform: rotate(360deg);
+    transform: translate(3%, -120%);
+} */
+
+/* Images used */
+.img1 {
+    background-image: url("homeImgs/hillLandscape.jpg");
+}
+
+.img2 {
+    background-image: url("homeImgs/heritageLandscape.jpg");
+}
+
+.img3 {
+    background-image: url("homeImgs/sunrise.jpg");
+}
+
+.img4 {
+    background-image: url("homeImgs/landscape1.jpg");
+}
+
+.img5 {
+    background-image: url("homeImgs/landscape2.jpg");
+}
+
+.img6 {
+    background-image: url("homeImgs/landscape3.jpg");
+}
+
+.img7 {
+    background-image: url("homeImgs/landscape4.jpg");
+}
+
+.img8 {
+    background-image: url("homeImgs/landscape5.jpg");
+}
+
+.bg-text {
+    background-color: rgba(0, 0, 0, 0.664);
+    color: #e23e57;
+    border: 10px solid #200101;
+    border-radius: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -130%);
+    text-align: center;
+    font-family: 'Montez', cursive;
+    width: 35%;
+    height: fit-content;
+    font-size: 300%;
+    transition: width 1.5s, font-size 0.8s, background-color 1s, color 1s, transform 0.5s;
+}
+
+.bg-text:hover {
+    background-color: rgba(0, 0, 0, 0.924);
+    color: #b8172f;
+    width: 50%;
+    font-size: 500%;
+    transform: rotate(360deg);
+    transform: translate(-50%, -90%);
+}
+
+/********************************************************** Scroll Animation ***********************************************************/
+
+
+.icon-scroll,
+.icon-scroll:before {
+    position: absolute;
+    left: 50%;
+}
+
+.icon-scroll {
+    width: 3%;
+    height: 10%;
+    top: 60%;
+    margin-left: -4px;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin-top: 5%;
+    box-shadow: inset 0 0 0 1px #150e1b;
+    border: solid whitesmoke;
+    border-radius: 25px;
+    transform: translate(-50%, -20%);
+}
+
+.icon-scroll:before {
+    content: ' ';
+    width: 8px;
+    height: 8px;
+    margin-right: -3px;
+    margin-left: -2px;
+    background: #fff;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+    transform: translate(-50%, -20%);
+    position: fixed;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(500%);
+    }
+
+}
+
+/************************************************************ Footer Tabs **********************************************/
+
+
+.container {
+    position: relative;
+    width: 30%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.image {
+    width: 25rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 5%;
+    border: solid 0.2rem;
+    border-color: #000000;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #a89199;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+    cursor: pointer;
+    border-radius: 5%;
+    border: solid 0.2rem;
+    border-color: #000000;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.navText {
+    background-color: #0000006a;
+    font-size: 200%;
+    font-family: 'Montez', cursive;
+    opacity: 1;
+}

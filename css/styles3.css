@@ -3,13 +3,11 @@ html {
     background-color: #150e1b;
     height: 100%;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
-
 
 h1 {
     color: #e23e57;
-    font-size: 300%;
+    font-size: 4rem;
     font-family: 'Montez', cursive;
 }
 
@@ -22,10 +20,98 @@ h3 {
 }
 
 h4,
-ol {
-    color: #a89199;
+ol,
+li {
+    color: black;
 }
 
+
+
+/*********************************************************************** ************************************************/
+
+
+
+.bg-image {
+    height: 80%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar {
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    height: 15rem;
+    margin: auto;
+    align-content: center;
+}
+
+.image {
+    width: 25rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 5%;
+    border: solid 0.2rem;
+    border-color: #000000;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #a89199;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+    cursor: pointer;
+    border-radius: 10%;
+    border: solid 0.1rem;
+    border-color: #000000;
+}
+
+.box:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.navText {
+    background-color: #0000006a;
+    font-size: 200%;
+    font-family: 'Montez', cursive;
+    opacity: 1;
+}
+
+.content-box {
+    border: solid 10px;
+    border-color: #490022;
+    border-radius: 10%;
+}
+
+
+
+/*********************************************************************** ************************************************/
+
+
+
+/* 
 .box {
     height: fit-content;
     display: block;
@@ -36,7 +122,7 @@ ol {
     border-color: #490022;
     border-radius: 10%;
     margin: 2%;
-}
+} */
 
 .box-text-small {
     width: 20%;
@@ -89,17 +175,6 @@ ol {
     border-radius: 50%;
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.avatar {
-    height: 80%;
-    width: 40%;
-    border-radius: 40%;
-    transform: translate(70%, -5%);
-    background-image: url("homeImgs/MeinAR.jpg");
-    background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
