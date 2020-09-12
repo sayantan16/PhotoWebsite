@@ -1,13 +1,13 @@
 body,
 html {
-    height: 100%;
+    height: 50vw;
     margin: 0;
     color: rgb(70, 70, 70);
     font-family: 'Merienda', cursive;
 }
 
 h3 {
-    letter-spacing: 5px;
+    letter-spacing: 2vw;
     text-transform: uppercase;
     color: #111;
 }
@@ -33,34 +33,34 @@ a {
 
 .bgimg-1 {
     background-image: url("homeImgs/landscape1.jpg");
-    min-height: 450px;
+    min-height: 20vw;
 }
 
 .bgimg-2 {
     background-image: url("homeImgs/landscape2.jpg");
-    min-height: 450px;
+    min-height: 20vw;
 }
 
 .bgimg-3 {
     background-image: url("homeImgs/landscape3.jpg");
-    min-height: 450px;
+    min-height: 20vw;
 }
 
 .bgimg-4 {
     background-image: url("homeImgs/landscape4.jpg");
-    min-height: 100%;
+    min-height: 50vw;
 }
 
 .bgimg-5 {
     background-image: url("homeImgs/landscape5.jpg");
-    min-height: 450px;
+    min-height: 20vw;
 }
 
 .caption {
     position: absolute;
     left: 0;
-    top: 50%;
-    width: 100%;
+    top: 20vw;
+    width: 98vw;
     text-align: center;
     color: #000;
 }
@@ -68,9 +68,9 @@ a {
 .caption span.border {
     background-color: rgba(17, 17, 17, 0.76);
     color: #fff;
-    padding: 1.2rem;
-    font-size: 1rem;
-    letter-spacing: 2rem;
+    padding: 1.2vw;
+    font-size: 1vw;
+    letter-spacing: 2vw;
 }
 
 .caption-box {
@@ -78,18 +78,8 @@ a {
     color: #000;
 }
 
-.caption-box span.topic {
-    background-color: rgb(27, 27, 27);
-    color: #fff;
-    padding: 1rem;
-    font-size: 1.5rem;
-    letter-spacing: 3rem;
-    text-align: center;
-    text-align: justify;
-}
-
 .know-box {
-    padding: 20%;
+    padding: 20vw;
     text-align: center;
     color: #000;
 }
@@ -97,58 +87,56 @@ a {
 .know-box span.more {
     background-color: rgba(0, 0, 0, 0.712);
     color: #fff;
-    padding: 1rem;
-    font-size: 1rem;
-    letter-spacing: 1rem;
+    padding: 1vw;
+    font-size: 1vw;
+    letter-spacing: 1vw;
     border: solid whitesmoke;
-    border-radius: 1.5rem;
+    border-radius: 1.5vw;
     text-align: center;
     text-align: justify;
     cursor: pointer;
+    transition: letter-spacing 1s, background-color 1.5s;
 }
 
 .know-box span.more:hover {
     background-color: rgb(0, 0, 0);
-    font-size: 1rem;
-    letter-spacing: 2rem;
+    font-size: 1vw;
+    letter-spacing: 2vw;
     border: solid whitesmoke;
-    border-radius: 1.5rem;
+    border-radius: 1.5vw;
 }
 
 .topic-box {
     color: #ddd;
     background-color: #000;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.5vw;
     text-align: justify;
 }
 
 .icon-scroll,
 .icon-scroll:before {
     position: absolute;
-    left: 50%;
 }
 
 .icon-scroll {
-    width: 3%;
-    height: 10%;
-    top: 80%;
-    margin-left: -4px;
-    margin-top: 5%;
+    left: 50vw;
+    width: 3vw;
+    height: 5vw;
+    top: 42vw;
     border: solid whitesmoke;
-    border-radius: 25px;
+    border-radius: 3vw;
     transform: translate(-50%, -20%);
 }
 
 .icon-scroll:before {
+    left: 1.1vw;
     content: ' ';
-    width: 8px;
-    height: 8px;
-    margin-right: -3px;
-    margin-left: -2px;
+    width: 0.5vw;
+    height: 0.5vw;
     background: #fff;
-    top: 8px;
-    border-radius: 4px;
+    top: 1vw;
+    border-radius: 3vw;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-name: scroll;
@@ -169,60 +157,91 @@ a {
 
 }
 
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3 {
-        background-attachment: scroll;
-    }
-}
-
 /*************************************************** BackGround *****************************************************************/
 
 
 
 .avatar {
-    height: 10%;
-    width: 5%;
-    border-radius: 50%;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50vw;
     background-position: center;
     background-size: cover;
     background-image: url("homeImgs/MyAR.png");
     position: fixed;
-    top: 1%;
-    left: 92%;
+    top: 1vw;
+    left: 92vw;
     background-size: cover;
     opacity: 1;
 }
 
 .social_icon {
-    width: 20rem;
+    width: 20vw;
     color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20vw;
+    left: 50vw;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .social_button {
     color: wheat;
-    padding: 5%;
+    padding: 1vw;
 }
 
 .social_button:hover {
     color: #fff;
-    padding: 5%;
 }
 
 .footer {
-    color: white;
+    color: wheat;
     position: absolute;
-    letter-spacing: 5px;
-    top: 95%;
-    left: 50%;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    top: 47vw;
+    left: 50vw;
     transform: translate(-50%, -100%);
     text-align: center;
+}
+
+/*************************************************** Cell phone Changes **************************************************/
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    body,
+    html {
+        height: 100vw;
+        font-weight: 600;
+    }
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-5 {
+        min-height: 80vw;
+    }
+
+    .bgimg-4 {
+        min-height: 110vw;
+    }
+
+    .footer {
+        top: 100vw;
+    }
+
+    .icon-scroll,
+    .icon-scroll:before {
+        visibility: hidden;
+    }
+
+    .caption {
+        top: 50vw;
+    }
+
+    .know-box {
+        padding-top: 35vw;
+    }
 }
