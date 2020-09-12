@@ -225,11 +225,12 @@ a {
     }
 
     .bgimg-4 {
-        min-height: 110vw;
+        min-height: 130vw;
     }
 
     .footer {
-        top: 100vw;
+        top: 120vw;
+        font-size: 2vw;
     }
 
     .icon-scroll,
@@ -241,7 +242,28 @@ a {
         top: 50vw;
     }
 
+    .caption span.border {
+        font-size: 3vw;
+        letter-spacing: 3vw;
+    }
+
+    .know-box span.more {
+        font-size: 2.5vw;
+        letter-spacing: 2vw;
+    }
+
     .know-box {
         padding-top: 35vw;
+    }
+
+    .social_button {
+        margin-top: 5vw;
+        padding-top: 5vw;
+    }
+
+    .avatar {
+        height: 8vw;
+        width: 8vw;
+        left: 88vw;
     }
 }

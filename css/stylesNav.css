@@ -64,7 +64,7 @@
 .nav span {
     position: absolute;
     left: 2.2vw;
-    width: 1.9vw;
+    width: 2vw;
     height: 0.3vw;
     border-radius: 4vw;
     background-color: #cecdcd;
@@ -91,10 +91,24 @@
 .nav input:checked~span:nth-child(3) {
     transform: translateY(0) rotate(45deg);
 }
-/* 
-@media only screen and (max-device-width: 600px) {
 
-    .menu li {
-        padding-top: -4vw, -4vw;
+/***************************************** Changes for Phone ***************************************************/
+
+@media only screen and (max-device-width: 600px) {
+    
+    .nav {
+        opacity: 1;
     }
-} */
+
+    .menu {
+        width: 1vw;
+    }
+
+    .menu li a {
+        font-size: 2.5vw;
+    }
+
+    .nav input:checked~.menu {
+        width: 72vw;
+    }
+}
